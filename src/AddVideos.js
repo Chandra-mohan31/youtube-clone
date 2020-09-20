@@ -28,6 +28,7 @@ function AddVideos() {
            
         });
        setTitle('');
+       setViews('');
        setChannel('');
        setChannelImage('');
        setChannel('');
@@ -44,7 +45,7 @@ function AddVideos() {
             <input type="text" value={channelImage} onChange={(e)=> setChannelImage(e.target.value)}  className="addVideos__input" placeholder="channel Image URL" />
             <input type="text" value={channel} onChange={(e)=> setChannel(e.target.value)}  className="addVideos__input" placeholder="channel Name" />
             <input type="text" value={video} onChange={(e)=> setVideo(e.target.value)}  className="addVideos__input" placeholder="Video URL" />
-                  <button className="addVideos__btn" onSubmit={handleSubmit} type="submit">POST VIDEO</button>
+                  <button className="addVideos__btn" onClick={handleSubmit} type="submit">POST VIDEO</button>
             </form>
         </div>
     )
