@@ -1,0 +1,14 @@
+.addVideos__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addVideos__input{
+    margin: 5px;
+    width: 50%;
+}
+.addVideos__btn{
+    color: white;
+    background-color: black;
+}
